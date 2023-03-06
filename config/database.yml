@@ -2,6 +2,7 @@ development:
   adapter: sqlite3
   database: db/development.sqlite3
 
+#the migration is crucial, since it will be used as part of the version control for our  adapter: sqlite3
 test:
   adapter: sqlite3
   database: db/test.sqlite3
